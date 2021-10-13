@@ -1,0 +1,345 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 50px;
+}
+/* ------------------------------ */
+
+/* +++++ block popy===================== */
+
+.block__popy {
+	background-color: #f5f5f5;
+	max-width: 1440px;
+	overflow: visible;
+	padding: 80px 0;
+	color: #ffffff;
+}
+.block__content {
+	background-color: #29c3be;
+	padding: 0 0 0 211px;
+}
+
+.popy__image {
+	max-width: 498px;
+	width: 100%;
+	display: inline-block;
+	margin: -95px 0 -120px 580px;
+}
+
+.popy__subtitle {
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	background: url("../img/mark.png") 0 -2px / auto no-repeat;
+	padding: 0 0 0 35px;
+	margin: 0 0 32px 0;
+}
+.popy__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	max-width: 411px;
+	margin: 0 0 75px 0;
+}
+
+.block__service {
+	display: inline-block;
+	margin: 0 0 60px 0;
+}
+.block__icon {
+	max-width: 76px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 12px 0 0;
+}
+.block__data {
+	display: inline-block;
+	max-width: 149px;
+	vertical-align: top;
+	margin: 0 74px 0 0;
+}
+
+/* .block__data p:not(:last-child) {
+	margin: 0 24px 0 0;
+} */
+
+.data__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+}
+.data__text {
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	color: #5d62b5;
+}
+
+/* ======================================================*/
+
+.main {
+	max-width: 1400px;
+	background-color: #f5f5f5;
+	padding: 30px;
+}
+
+h1 {
+	border: 15px inset #715da4;
+	border-radius: 27px 14px 14px 27px;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+}
+
+.main h1:first-child {
+	margin: 0 auto 40px auto;
+}
+
+.block__services {
+	max-width: 1250px;
+	background: url(../img/blob.svg) top right / contain no-repeat scroll;
+}
+
+.block__subtatile {
+	max-width: 450px;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+	margin: 0 0 33px 0;
+	background: url("../img/mark.png") 0 -2px / auto no-repeat;
+	padding: 0 0 0 35px;
+}
+
+.block__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	margin: 0 0 78px 0;
+	color: #000000;
+}
+
+.card__box {
+	max-width: 324px;
+	margin: 0px 24px 24px 0px;
+	display: inline-block;
+	background: #ffffff;
+	border-radius: 20px;
+}
+
+.card__box:hover {
+	box-shadow: 1px 3px 15px 1px #4b4b4ba2;
+}
+
+.card__img {
+	font-size: 0;
+}
+.img {
+	margin: 50px auto 33px auto;
+	display: block;
+}
+.card__text {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+	max-width: 237px;
+	margin: 50px 44px 50px 43px;
+}
+
+.text__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	text-align: center;
+	color: #f2726f;
+	margin: 0 0 20px 0;
+}
+
+.block__link {
+	max-width: 124px;
+	background: #f2726f;
+	border-radius: 8px;
+	margin: 66px auto 60px auto;
+}
+.link {
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 9px 0;
+	display: block;
+	text-align: center;
+}
+
+/* __________block 2  home work_______________ */
+/* 
+.pet__container {
+	background-color: #f5f5f5;
+	max-width: 1020px;
+	width: 100%;
+	padding: 10px;
+}
+.subtaitle {
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+	background: url(../img/mark.png) 0 -2px / auto no-repeat scroll;
+	padding: 0 0 0 35px;
+	margin: 0 0 33px 0;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0 0 78px 0;
+}
+
+.pet__box1 {
+	max-width: 235px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 60px 0;
+}
+
+.pet__img {
+	display: inline-block;
+}
+.img__pet {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	width: 86px;
+	vertical-align: top;
+}
+
+.box__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 137%;
+	color: #f2726f;
+	margin: 0 0 20px 0;
+}
+
+.text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+ */
+/* ____ like as Jenya_____________ */
+
+.box__pet {
+	background: #f5f5f5;
+
+	font-size: 0;
+}
+
+.box__sabtitle {
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5d62b5;
+	margin: 0 0 33px 0;
+	background: url("../img/mark.png") 0 -2px / auto no-repeat;
+	padding: 0 0 0 35px;
+}
+
+.main__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0 0 68px 0;
+}
+.container {
+	display: inline-block;
+}
+
+.image {
+	vertical-align: top;
+	max-width: 63px;
+	margin: 0 23px 0 0;
+}
+.item__about {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 235px;
+	margin: 0 24px 0 0;
+}
+
+.item {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #f2726f;
+	margin: 0 0 20px 0;
+}
+.item__text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
